@@ -1,8 +1,55 @@
 body {
   font-family: sans-serif;
-  
+  background: #ffffff;
+  color: #689948;
+  font-family: 'komet', sans-serif;
+  font-size: 2.5em;
 }
 
 .hide {
   display: none;
 }
+
+h1 {
+    padding: 50px;
+}
+
+.intro {
+    text-align: center;
+}
+
+#find-out, #submit, #ruthie-return, #evie-return, #sophie-return, #other-return {
+    padding: 40px 30px;
+    font-size: 1em;
+    font-family: 'komet', sans-serif;
+    background:#689948;
+    color: #ffffff;
+    border:#689948;
+    border-radius: 5%;
+    
+}
+
+#find-out:hover, #submit:hover, #ruthie-return:hover, #evie-return:hover, #sophie-return:hover, #other-return:hover {
+    
+        background-color:#ffffff;
+        color:#689948;
+        transition: 0.2s;
+        border:#689948 1px solid;
+   
+}
+
+.ruthie-result, .evie-result, .sophie-result, .other-result {
+    text-align: center;
+    padding: 50px;
+    line-height: 2em;
+}
+
+.quiz {
+    line-height: 2.5em;
+    padding: 50px;
+}
+
+.submit {
+    text-align: center;
+}
+

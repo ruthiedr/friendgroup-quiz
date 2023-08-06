@@ -78,12 +78,19 @@ submitButton.addEventListener("click", function () {
   const evieDoll = document.querySelector("#evie-doll");
   const sophieDoll = document.querySelector("#sophie-doll");
 
+  // Olipop option
+  const ruthieOlipop = document.querySelector("#ruthie-olipop");
+  const evieOlipop = document.querySelector("#evie-olipop");
+  const sophieOlipop = document.querySelector("#sophie-olipop");
+  
+
   //You are a Ruthie
   if (
     ruthieFruit.checked === true &&
     ruthieAesthetic.checked === true &&
     ruthieSong.checked === true &&
-    ruthieDoll.checked === true
+    ruthieDoll.checked === true &&
+    ruthieOlipop.checked === true
   ) {
     console.log("You are a Ruthie!");
     ruthieResult.classList.remove("hide");
@@ -96,7 +103,9 @@ submitButton.addEventListener("click", function () {
     evieFruit.checked === true &&
     evieAesthetic.checked === true &&
     evieSong.checked === true &&
-    evieDoll.checked === true
+    evieDoll.checked === true &&
+    evieOlipop.checked === true
+   
   ) {
     console.log("You are an Evie!");
     evieResult.classList.remove("hide");
@@ -109,7 +118,8 @@ submitButton.addEventListener("click", function () {
     sophieFruit.checked === true &&
     sophieAesthetic.checked === true &&
     sophieSong.checked === true &&
-    sophieDoll.checked === true
+    sophieDoll.checked === true &&
+    sophieOlipop.checked === true
   ) {
     console.log("You are a Sophie!");
     sophieResult.classList.remove("hide");
