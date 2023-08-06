@@ -12,6 +12,31 @@ const ruthie = document.querySelectorAll(".ruthie");
 const evie = document.querySelector(".evie");
 const sophie = document.querySelector(".sophie");
 
+// Reload the quiz when "Take the quiz again!" is clicked
+const ruthieReturn = document.querySelector("#ruthie-return");
+ruthieReturn.addEventListener("click", function() {
+  location.reload();
+  });
+
+  const evieReturn = document.querySelector("#evie-return");
+evieReturn.addEventListener("click", function() {
+  location.reload();
+  });
+
+  const sophieReturn = document.querySelector("#sophie-return");
+sophieReturn.addEventListener("click", function() {
+  location.reload();
+  });
+
+  const otherReturn = document.querySelector("#other-return");
+otherReturn.addEventListener("click", function() {
+  location.reload();
+  });
+
+
+
+
+
 // If the "find out" button is clicked, the quiz is started
 findOutButton.addEventListener("click", function() {
   intro.classList.add("hide");
